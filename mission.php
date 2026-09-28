@@ -10,7 +10,6 @@ function overrideSecurity(): void
     // 担当B: 'vault_door' => 'UNLOCKED',
     $system_config = [
         'OVERRIDE_TARGET' => false,
-        'firewall' => 'DISARMED',
         'vault_door' => 'UNLOCKED',
     ];
     // ==========================================
